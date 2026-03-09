@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const estudiantesRoutes = require('./routers/estudiantesRoutes')
+const estudiantesRoutes = require('./routers/estudiantesRoutes.js')
 
 app.get('/', (req,res)=>{
     res.send("Hola mundo")
